@@ -1,5 +1,13 @@
 # Vimigo-Backend-Assessment
 
+## Candidate Details
+Name: Victor Lee Zhe Sheng
+
+Email: victorlee071200@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/victor-lee-5710981b7/
+
+
 ## Requirement
 
 | Requirement | Version |
