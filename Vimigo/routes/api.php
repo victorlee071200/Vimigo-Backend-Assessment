@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ExcelController;
 use App\Http\Controllers\AuthorController;
 
 /*
@@ -23,5 +24,11 @@ Route::middleware('auth:api')->prefix('vimigo')->group(function(){
 
 
     Route::resource('/users', UserController::class);
+
+
+
+
+    Route::post('import', [ExcelController::class, 'import'])->name('import');
+
 });
 

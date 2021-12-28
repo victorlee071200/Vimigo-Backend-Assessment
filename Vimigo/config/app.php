@@ -167,6 +167,10 @@ return [
          */
 
         eloquentFilter\ServiceProvider::class,
+        Maatwebsite\Excel\ExcelServiceProvider::class,
+
+
+
 
 
         /*
@@ -233,6 +237,11 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'EloquentFilter' => eloquentFilter\Facade\EloquentFilter::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+
+
+
+
 
 
     ],
